@@ -18,7 +18,7 @@ public class TestDataGenerator
 	{
 		//String data1 = "user1";
 		//Object[] data2 = {"user1", "pass1"};  //1-D array
-		Object[][] data3 = {{"user1", "pass1"},{"user2", "pass2"},{"user3", "pass3"}};
+		Object[][] data3 = {{"standard_user", "secret_sauce"},{"locked_out_user", "secret_sauce"},{"user3", "pass3"}};
 		return data3;
 	}
 	
